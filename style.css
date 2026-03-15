@@ -1,0 +1,103 @@
+/* GENERAL PAGE STYLING */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffe6f0;  
+    color: #4d004d;       
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+/* HEADING */
+h2 {
+    color: #99004d;
+    margin-top: 20px;
+}
+
+/* FORM STYLING */
+form {
+    width: 360px;              
+    padding: 20px;
+    background: #ffb3d9;       
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* LABELS */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* INPUTS AND TEXTAREA */
+input, textarea {
+    width: 100%;               
+    max-width: 320px;          
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cc6699;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: block;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    max-width: 320px;
+    padding: 10px;
+    margin-top: 15px;
+    background: #ff66b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e60073;
+}
+
+/* TOOLTIP */
+.tooltip {
+    visibility: hidden; 
+    color: #660033;
+    font-size: 12px;
+    margin-top: 3px;
+    display: block;
+}
+
+/* FEEDBACK DISPLAY */
+#feedback-display {
+    width: 360px;
+    margin-top: 20px;
+}
+
+.feedback-entry {
+    background: #ff99cc;        
+    border: 1px solid #cc6699;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #330033;
+}
+
+/* CHARACTER COUNTER */
+#char-count {
+    text-align: right;
+    font-size: 12px;
+    color: #660033;
+    margin-top: 5px;
+}
+
+/* FIELD CONTAINER */
+.field-container {
+    position: relative;
+}
